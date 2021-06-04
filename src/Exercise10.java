@@ -7,19 +7,19 @@ public class Exercise10 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the price of item 1: ");
-        double item1 = scan.nextInt();
+        double item1 = scan.nextDouble();
         System.out.print("Enter the quantity of item1: ");
-        double q_item1 = scan.nextInt();
+        double q_item1 = scan.nextDouble();
 
         System.out.print("Enter the price of item 2: ");
-        double item2 = scan.nextInt();
+        double item2 = scan.nextDouble();
         System.out.print("Enter the quantity of item2: ");
-        double q_item2 = scan.nextInt();
+        double q_item2 = scan.nextDouble();
 
         System.out.print("Enter the price of item 3: ");
-        double item3 = scan.nextInt();
+        double item3 = scan.nextDouble();
         System.out.print("Enter the quantity of item3: ");
-        double q_item3 = scan.nextInt();
+        double q_item3 = scan.nextDouble();
 
         double subtotal = ((item1*q_item1) + (item2*q_item2) + (item3*q_item3));
         double tax = 0.055 * subtotal;
